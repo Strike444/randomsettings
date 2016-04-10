@@ -1,0 +1,49 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/" . "strike/")
+ ("/" . "home/")
+ ("/home/strike/work/metasploit-omnibus/" . "pkg/")
+ ("/home/strike/work/" . "metasploit-omnibus/")
+ ("/home/strike/" . "work/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/strike/"
+ "/home/strike/work/metasploit-omnibus/"
+ "/home/strike/work/metasploit-omnibus/pkg/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "TUTORIAL.ru"
+ ".ctl_to_caps"
+ "proba.rb"
+ "README.md"
+ ".gitignore"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/strike/" (22032 59806 402581 476000) ".xsession-errors" ".mplayer/" ".bashrc~" "work/" ".msf4/" ".zlogin" ".gitconfig" "proba.rb~" ".adobe/" "./" ".themes/" ".Xauthority" ".zshrc" "#.bashrc#" "Изображения/" "Видео/" ".macromedia/" ".local/" ".profile" ".thunderbird/" ".profile~" "#proba.rb#" ".emacs~" "#proba1.rb#" ".emacs.d/" ".config/" ".gnome/" ".gconf/" ".mkshrc" ".rvm/" ".bash_history" "prosto.txt" ".ICEauthority" ".bash_profile" ".mozilla/" ".bash_logout" "TUTORIAL.ru" "TUTORIAL.ru~" "Рабочий стол/" ".icons/" ".gnupg/" ".emacs" ".pki/" "Документы/" "Музыка/" ".xsession-errors.old" ".Skype/" "../" "Библиотека Calibre/" "Шаблоны/" "proba.rb" ".bashrc" ".dbus/" "Загрузки/" "Общедоступные/" ".cache/" ".gem/" ".sudo_as_admin_successful")
+
+ ("/home/" (22025 43616 694177 443000) "strike/" "./" "../")
+
+ ("/home/strike/.emacs.d/" (22030 25476 450040 123000) "./" "url/" "auto-save-list/" "ido.last" "../" "ac-comphist.dat" "lisp/" "ido.last~")
+
+ ("/home/strike/.emacs.d/lisp/" (22030 19324 563446 58000) "sr-speedbar.el" "./" "auto-complete/" "auto-save-list/" "color-theme/" "rsense.el" "dash.el" "find-file-in-project.el" "ido.last" "yasnippet/" "elpa/" "../" "linum+.el" "smartparens/" "ido.last~" "popup.el")
+
+ ("/home/strike/work/metasploit-omnibus/" (22030 21003 582612 839000) ".gitmodules" "docker/" "./" "Gemfile.lock" "Berksfile" "#README.md#" ".git/" "pkg/" "resources/" ".gitignore" "Gemfile" ".kitchen.yml" "local/" "../" "config/" "omnibus.rb" "USAGE.md" "package-scripts/" ".travis.yml" "README.md")
+
+ ("/home/strike/work/metasploit-omnibus/resources/metasploit-framework/pkg/" (22026 53960 129 568000) "./" "welcome.html.erb" "license.html.erb" "../" "distribution.xml.erb" "background.png")
+
+ ("/home/strike/work/metasploit-omnibus/pkg/" (22026 53959 992129 509000) "./" ".gitignore" "../")
+
+ ("/home/strike/work/" (22026 53957 416110 519000) "./" "metasploit-omnibus/" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,189 @@
+<JWM>
+<!-- Automatically generated and updated. Do not touch -->
+    <Menu label="Debian">
+      <Menu label="CrossOver">
+        <Program label="CrossOver" confirm="false">/opt/cxoffice/bin/crossover</Program>
+        <Program label="Uninstall CrossOver Linux" confirm="false">/opt/cxoffice/bin/cxuninstall</Program>
+      </Menu>
+      <Menu label="Windows Applications">
+        <Menu label="Battle.net">
+          <Program label="Battle.net" confirm="false">"/home/strike/.cxoffice/Diablo_III/desktopdata/cxmenu/StartMenu.C^5E3A_users_Public_Start^2BMenu/Programs/Battle.net/Battle.net.lnk"</Program>
+        </Menu>
+        <Menu label="Diablo III">
+          <Program label="Diablo III" confirm="false">"/home/strike/.cxoffice/Diablo_III/desktopdata/cxmenu/StartMenu.C^5E3A_users_Public_Start^2BMenu/Programs/Diablo+III/Diablo+III.lnk"</Program>
+        </Menu>
+      </Menu>
+      <Menu label="Игры">
+        <Menu label="Игрушки">
+          <Program label="Oclock" confirm="false">oclock</Program>
+          <Program label="Xclock (analog)" confirm="false">xclock -analog</Program>
+          <Program label="Xclock (digital)" confirm="false">xclock -digital -update 1</Program>
+          <Program label="Xeyes" confirm="false">xeyes</Program>
+          <Program label="Xlogo" confirm="false">xlogo</Program>
+        </Menu>
+        <Menu label="Утилиты">
+          <Program label="Rclock" confirm="false">/usr/bin/rclock</Program>
+        </Menu>
+      </Menu>
+      <Menu label="Приложения">
+        <Menu label="Видео">
+          <Program label="guvcview" confirm="false">/usr/bin/guvcview</Program>
+          <Program label="SMPlayer" confirm="false">smplayer</Program>
+          <Program label="VLC media player" confirm="false">/usr/bin/qvlc</Program>
+        </Menu>
+        <Menu label="Графика">
+          <Program label="Font Manager" confirm="false">/usr/bin/font-manager</Program>
+          <Program label="Inkscape" confirm="false">/usr/bin/inkscape</Program>
+          <Program label="LibreOffice Draw" confirm="false">/usr/bin/libreoffice --draw</Program>
+          <Program label="X Window Snapshot" confirm="false">xwd | xwud</Program>
+        </Menu>
+        <Menu label="Научные">
+          <Menu label="Математика">
+            <Program label="Bc" confirm="false">x-terminal-emulator  -T "Bc" -e sh -c "/usr/bin/bc"</Program>
+            <Program label="Dc" confirm="false">x-terminal-emulator  -T "Dc" -e sh -c "/usr/bin/dc"</Program>
+            <Program label="galculator" confirm="false">/usr/bin/galculator</Program>
+            <Program label="LibreOffice Math" confirm="false">/usr/bin/libreoffice --math</Program>
+            <Program label="Xcalc" confirm="false">xcalc</Program>
+          </Menu>
+        </Menu>
+        <Menu label="Оболочки">
+          <Program label="Bash" confirm="false">x-terminal-emulator  -T "Bash" -e sh -c "/bin/bash --login"</Program>
+          <Program label="Dash" confirm="false">x-terminal-emulator  -T "Dash" -e sh -c "/bin/dash -i"</Program>
+          <Program label="Sh" confirm="false">x-terminal-emulator  -T "Sh" -e sh -c "/bin/sh --login"</Program>
+        </Menu>
+        <Menu label="Офисные">
+          <Program label="LibreOffice Calc" confirm="false">/usr/bin/libreoffice --calc</Program>
+          <Program label="LibreOffice Impress" confirm="false">/usr/bin/libreoffice --impress</Program>
+          <Program label="LibreOffice Writer" confirm="false">/usr/bin/libreoffice --writer</Program>
+        </Menu>
+        <Menu label="Программирование">
+          <Program label="Geany" confirm="false">/usr/bin/geany</Program>
+          <Program label="Python (v2.7)" confirm="false">x-terminal-emulator  -T "Python (v2.7)" -e sh -c "/usr/bin/python2.7"</Program>
+          <Program label="Python (v3.4)" confirm="false">x-terminal-emulator  -T "Python (v3.4)" -e sh -c "/usr/bin/python3.4"</Program>
+          <Program label="Tclsh8.6" confirm="false">x-terminal-emulator  -T "Tclsh8.6" -e sh -c "/usr/bin/tclsh8.6"</Program>
+          <Program label="TkWish8.6" confirm="false">x-terminal-emulator -e /usr/bin/wish8.6</Program>
+        </Menu>
+        <Menu label="Программы просмотра">
+          <Program label="Shotwell" confirm="false">/usr/bin/shotwell</Program>
+          <Program label="Xditview" confirm="false">xditview</Program>
+        </Menu>
+        <Menu label="Работа со звуком">
+          <Program label="Audacious" confirm="false">/usr/bin/audacious</Program>
+          <Program label="paman" confirm="false">/usr/bin/paman</Program>
+          <Program label="pasystray" confirm="false">/usr/bin/pasystray</Program>
+          <Program label="pavucontrol" confirm="false">/usr/bin/pavucontrol</Program>
+          <Program label="pavumeter" confirm="false">/usr/bin/pavumeter</Program>
+          <Program label="Rhythmbox" confirm="false">/usr/bin/rhythmbox</Program>
+          <Program label="volumeicon" confirm="false">/usr/bin/volumeicon</Program>
+        </Menu>
+        <Menu label="Редакторы">
+          <Program label="Emacs 24 (text)" confirm="false">x-terminal-emulator  -T "Emacs 24 (text)" -e sh -c "/usr/bin/emacs24 -nw"</Program>
+          <Program label="Emacs 24 (X11)" confirm="false">/usr/bin/emacs24</Program>
+          <Program label="GVIM" confirm="false">/usr/bin/vim.gnome -g -f</Program>
+          <Program label="Jed" confirm="false">x-terminal-emulator  -T "Jed" -e sh -c "/usr/bin/jed"</Program>
+          <Program label="Joe" confirm="false">x-terminal-emulator  -T "Joe" -e sh -c "/usr/bin/joe"</Program>
+          <Program label="Nano" confirm="false">x-terminal-emulator  -T "Nano" -e sh -c "/bin/nano"</Program>
+          <Program label="Xedit" confirm="false">xedit</Program>
+        </Menu>
+        <Menu label="Сеть">
+          <Menu label="Общение">
+            <Program label="heirloom-mailx" confirm="false">x-terminal-emulator  -T "heirloom-mailx" -e sh -c "/usr/bin/heirloom-mailx"</Program>
+            <Program label="HexChat" confirm="false">/usr/bin/hexchat</Program>
+            <Program label="Pidgin" confirm="false">/usr/bin/pidgin</Program>
+            <Program label="Telnet" confirm="false">x-terminal-emulator  -T "Telnet" -e sh -c "/usr/bin/telnet.netkit"</Program>
+            <Program label="Xbiff" confirm="false">xbiff</Program>
+          </Menu>
+          <Menu label="Пересылка файлов">
+            <Program label="qBittorrent" confirm="false">/usr/bin/qbittorrent</Program>
+            <Program label="Transmission BitTorrent Client (GTK)" confirm="false">/usr/bin/transmission-gtk</Program>
+          </Menu>
+          <Menu label="Просмотр веб">
+            <Program label="Yandex Browser (beta)" confirm="false">/opt/yandex/browser-beta/yandex-browser-beta</Program>
+          </Menu>
+        </Menu>
+        <Menu label="Системные">
+          <Menu label="Администрирование">
+            <Program label="DSL/PPPoE configuration tool" confirm="false">x-terminal-emulator  -T "DSL/PPPoE configuration tool" -e sh -c "/usr/sbin/pppoeconf"</Program>
+            <Program label="Editres" confirm="false">editres</Program>
+            <Program label="GNOME partition editor" confirm="false">su-to-root -X -c /usr/sbin/gparted</Program>
+            <Program label="idesk" confirm="false">/usr/bin/idesk</Program>
+            <Program label="LXAppearance" confirm="false">/usr/bin/lxappearance</Program>
+            <Program label="Network Admin" confirm="false">/usr/bin/network-admin</Program>
+            <Program label="pppconfig" confirm="false">x-terminal-emulator  -T "pppconfig" -e sh -c "su-to-root -p root -c /usr/sbin/pppconfig"</Program>
+            <Program label="QtConfig" confirm="false">/usr/lib/*/qt4/bin/qtconfig</Program>
+            <Program label="Services Admin" confirm="false">/usr/bin/services-admin</Program>
+            <Program label="Shares Admin" confirm="false">/usr/bin/shares-admin</Program>
+            <Program label="System Information" confirm="false">/usr/bin/hardinfo</Program>
+            <Program label="Time Admin" confirm="false">/usr/bin/time-admin</Program>
+            <Program label="UNetbootin" confirm="false">/usr/bin/unetbootin</Program>
+            <Program label="User accounts Admin" confirm="false">/usr/bin/users-admin</Program>
+            <Program label="Xclipboard" confirm="false">xclipboard</Program>
+            <Program label="Xfontsel" confirm="false">xfontsel</Program>
+            <Program label="Xkill" confirm="false">xkill</Program>
+            <Program label="Xrefresh" confirm="false">xrefresh</Program>
+            <Program label="xxkb" confirm="false">/usr/bin/xxkb</Program>
+          </Menu>
+          <Menu label="Аппаратное обеспечение">
+            <Program label="Xvidtune" confirm="false">xvidtune</Program>
+          </Menu>
+          <Menu label="Безопасность">
+            <Program label="Seahorse" confirm="false">/usr/bin/seahorse</Program>
+          </Menu>
+          <Menu label="Мониторинг">
+            <Program label="Conky" confirm="false">x-terminal-emulator  -T "Conky" -e sh -c "/usr/bin/conky"</Program>
+            <Program label="htop" confirm="false">x-terminal-emulator  -T "htop" -e sh -c "/usr/bin/htop"</Program>
+            <Program label="Pstree" confirm="false">x-terminal-emulator  -T "Pstree" -e sh -c "/usr/bin/pstree.x11"</Program>
+            <Program label="Top" confirm="false">x-terminal-emulator  -T "Top" -e sh -c "/usr/bin/top"</Program>
+            <Program label="Xconsole" confirm="false">xconsole -file /dev/xconsole</Program>
+            <Program label="Xev" confirm="false">x-terminal-emulator -e xev</Program>
+            <Program label="Xload" confirm="false">xload</Program>
+          </Menu>
+          <Menu label="Языковое окружение">
+            <Program label="Input Method Configuration" confirm="false">x-terminal-emulator  -T "Input Method Configuration" -e sh -c "/usr/bin/im-config"</Program>
+          </Menu>
+        </Menu>
+        <Menu label="Специальные возможности">
+          <Program label="xbindkeys" confirm="false">/usr/bin/xbindkeys</Program>
+          <Program label="Xmag" confirm="false">xmag</Program>
+          <Program label="Xzoom" confirm="false">xzoom</Program>
+        </Menu>
+        <Menu label="Управление файлами">
+          <Program label="Brasero" confirm="false">/usr/bin/brasero</Program>
+          <Program label="mc" confirm="false">x-terminal-emulator  -T "mc" -e sh -c "/usr/bin/mc"</Program>
+          <Program label="Nautilus" confirm="false">/usr/bin/nautilus</Program>
+          <Program label="tuxcmd" confirm="false">/usr/bin/tuxcmd</Program>
+        </Menu>
+        <Menu label="Эмуляторы">
+          <Program label="VirtualBox" confirm="false">/usr/bin/virtualbox</Program>
+        </Menu>
+        <Menu label="Эмуляторы терминалов">
+          <Program label="Eterm" confirm="false">/usr/bin/Eterm</Program>
+          <Program label="Rxvt" confirm="false">/usr/bin/rxvt-xterm</Program>
+          <Program label="Rxvt-Unicode" confirm="false">urxvt</Program>
+          <Program label="Rxvt-Unicode (Black, Xft)" confirm="false">urxvt -fn "xft:Mono" -rv</Program>
+          <Program label="Sakura" confirm="false">/usr/bin/sakura</Program>
+          <Program label="X-Terminal as root (GKsu)" confirm="false">/usr/bin/gksu -u root /usr/bin/x-terminal-emulator</Program>
+        </Menu>
+      </Menu>
+      <Menu label="Справка">
+        <Program label="Info" confirm="false">x-terminal-emulator  -T "Info" -e sh -c "info"</Program>
+        <Program label="Xman" confirm="false">xman</Program>
+        <Program label="yelp" confirm="false">/usr/bin/yelp</Program>
+      </Menu>
+      <Menu label="Экран">
+        <Menu label="Блокировщики">
+          <Program label="Lock Screen (XScreenSaver)" confirm="false">/usr/bin/xscreensaver-command -lock</Program>
+        </Menu>
+        <Menu label="Хранители экрана">
+          <Program label="Activate ScreenSaver (Next)" confirm="false">/usr/bin/xscreensaver-command -next</Program>
+          <Program label="Activate ScreenSaver (Previous)" confirm="false">/usr/bin/xscreensaver-command -prev</Program>
+          <Program label="Activate ScreenSaver (Random)" confirm="false">/usr/bin/xscreensaver-command -activate</Program>
+          <Program label="Demo Screen Hacks" confirm="false">/usr/bin/xscreensaver-command -demo</Program>
+          <Program label="Disable XScreenSaver" confirm="false">/usr/bin/xscreensaver-command -exit</Program>
+          <Program label="Enable XScreenSaver" confirm="false">/usr/bin/xscreensaver</Program>
+          <Program label="Reinitialize XScreenSaver" confirm="false">/usr/bin/xscreensaver-command -restart</Program>
+          <Program label="ScreenSaver Preferences" confirm="false">/usr/bin/xscreensaver-command -prefs</Program>
+        </Menu>
+      </Menu>
+    </Menu>
+</JWM>

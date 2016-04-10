@@ -1,0 +1,27 @@
+<JWM>
+<!-- Startup -->
+<StartupCommand>xcompmgr -C -c -t-5 -l-5 -r4.2</StartupCommand>
+<StartupCommand>/usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately</StartupCommand>
+<StartupCommand>/usr/bin/gnome-keyring-daemon --start --components=pkcs11</StartupCommand>
+<StartupCommand>/usr/bin/gnome-keyring-daemon --start --components=secrets</StartupCommand>
+<StartupCommand>/usr/bin/gnome-keyring-daemon --start --components=ssh</StartupCommand<name />
+<!-- <StartupCommand>/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1</StartupCommand> -->
+<StartupCommand>/usr/lib/x86_64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1</StartupCommand>
+<StartupCommand>start-pulseaudio-x11</StartupCommand>
+<StartupCommand>/usr/lib/unity-settings-daemon/unity-fallback-mount-helper</StartupCommand>
+<StartupCommand>setxkbmap -layout "us,ru(winkeys)" -model "pc105" -option "grp:ctrl_shift_toggle"</StartupCommand>
+<!-- <StartupCommand>(sleep 1s && xxkb)</StartupCommand> -->
+<StartupCommand>(sleep 1s && nm-applet)</StartupCommand>
+<!-- <StartupCommand>cbatticon -n</StartupCommand> -->
+<StartupCommand>dropbox start -i</StartupCommand>
+<StartupCommand>update-notifier</StartupCommand>
+<StartupCommand>conky -b</StartupCommand>
+<StartupCommand>parcellite</StartupCommand>
+<StartupCommand>/usr/bin/numlockx on</StartupCommand>
+<StartupCommand>xset s off && xset dpms 0 0 0</StartupCommand>
+<!-- <StartupCommand>wicd-client --tray</StartupCommand> -->
+<!-- <StartupCommand>blueman-applet</StartupCommand> -->
+<!-- <StartupCommand>xset -b</StartupCommand> -->
+<!-- <StartupCommand>gsettings-data-convert</StartupCommand> -->
+<!-- <StartupCommand>indicator-application-service</StartupCommand> -->
+</JWM>

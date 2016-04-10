@@ -1,0 +1,100 @@
+<JWM>
+    <Menu label="Приложения">
+      <Menu label="CrossOver">
+        <Program label="CrossOver" confirm="false">/opt/cxoffice/bin/crossover</Program>
+      </Menu>
+      <Menu label="Аудио и видео">
+      	<Program label="Audacious" confirm="false">audacious</Program>
+      	<Program label="SMPlayer" confirm="false">smplayer</Program>
+      	<Program label="VLC" confirm="false">vlc</Program>
+      	<Program label="Guvcview" confirm="false">guvcview</Program>
+      </Menu>
+	  <Menu label="Графика">
+	  	<Program label="Inkscape" confirm="false">inkscape</Program>
+	  	<Program label="Pinta" confirm="false">pinta</Program>
+	  	<Program label="Shotwell" confirm="false">shotwell</Program>
+	  	<Program label="Font Manager" confirm="false">font-manager</Program>
+	  	<Program label="Выбор цвета" confirm="false">mate-color-select</Program>
+	  </Menu>
+	  <Menu label="Интернет">
+	  	<Program label="Chromium" confirm="false">chromium-browser --password-store=basic</Program>
+	  	<Program label="Firefox" confirm="false">firefox</Program>
+	  	<Program label="Tor brower" confirm="false">sh -c '"/home/strike/tor-browser_ru/Browser/start-tor-browser" --detach || ([ !  -x "/home/strike/tor-browser_ru/Browser/start-tor-browser" ] && "$(dirname "$*")"/Browser/start-tor-browser --detach)' dummy %k</Program>
+	  	<Program label="Thunderbird" confirm="false">thunderbird</Program>
+	  	<Program label="qBittorrent" confirm="false">qbittorrent</Program>
+	  	<Program label="Skype" confirm="false">env PULSE_LATENCY_MSEC=60 skype</Program>
+	  	<Program label="TeamViewer" confirm="false">/opt/teamviewer/tv_bin/script/teamviewer</Program>
+	  	<Program label="Dropbox" confirm="false">dropbox start -i</Program>
+	  	<Program label="Icq" confirm="false">icq</Program>
+	  </Menu>
+	  <Menu label="Офис">
+	  	<Program label="LibreOffice" confirm="false">libreoffice</Program>
+	  	<Program label="LibreOffice Writer" confirm="false">libreoffice --writer</Program>
+	  	<Program label="LibreOffice Calc" confirm="false">libreoffice --calc</Program>
+	  	<Program label="LibreOffice Draw" confirm="false">libreoffice --draw</Program>
+	  	<Program label="LibreOffice Impress" confirm="false">libreoffice --impress</Program>
+	  	<Program label="LibreOffice Math" confirm="false">libreoffice --math</Program>
+	  	<Program label="Calibre" confirm="false">calibre</Program>
+	  	<Program label="Atril" confirm="false">atril</Program>
+	  </Menu>
+	  <Menu label="Программирование">
+	  	<Program label="Geany" confirm="false">geany</Program>
+	  	<Program label="Sublime Text" confirm="false">subl</Program>
+	  </Menu>
+	  <Menu label="Прочие">
+	  	<Program label="VirtualBox" confirm="false">/usr/bin/virtualbox</Program>
+	  	<Program label="System information" confirm="false">/usr/bin/hardinfo</Program>
+	  	<Program label="UNetbootin" confirm="false">/usr/bin/unetbootin</Program>
+	  	<!-- <Program label="Pstree" confirm="false">sakura -e pstree</Program> -->
+	  	<Program label="Xfontsel" confirm="false">xfontsel</Program>
+	  </Menu>
+	  <Menu label="Системные">
+	  	<Program label="Filelight" confirm="false">filelight</Program>
+	  	<Program label="Анализатор использования дисков" confirm="false">mate-disk-usage-analyzer</Program>
+	  	<Program label="Программа просмотра журналов" confirm="false">mate-system-log</Program>
+	  	<Program label="Avahi Zeroconf" confirm="false">/usr/bin/avahi-discover</Program>
+	  	<Program label="GDebi" confirm="false">gdebi-gtk</Program>
+	  	<Program label="Dconf" confirm="false">dconf-editor</Program>
+	  	<Program label="Регулировка звука" confirm="false">pavucontrol</Program>
+	  	<Program label="Системный монитор" confirm="false">mate-system-monitor</Program>
+	  </Menu>
+	  <Menu label="Стандартные">
+	  	<Program label="Galculator" confirm="false">galculator</Program>
+	  	<Program label="Tux Commander" confirm="false">tuxcmd</Program>
+	  	<Program label="Менеджер архивов Engrampa" confirm="false">engrampa</Program>
+	  	<Program label="Пароли и ключи" confirm="false">/usr/bin/seahorse</Program>
+	  	<Program label="Сделать снимок экрана" confirm="false">mate-screenshot --interactive</Program>
+	  	<Program label="Средство поиска" confirm="false">mate-search-tool</Program>
+	  	<Program label="Текстовый редактор pluma" confirm="false">pluma</Program>
+	  </Menu>
+	  <Menu label="Администрирование">
+	  	<Program label="GParted" confirm="false">gparted-pkexec</Program>
+	  	<Program label="Настройки LightDM GTK+ Greeter" confirm="false">lightdm-gtk-greeter-settings-pkexec</Program>
+	  	<Program label="Обновление приложений" confirm="false">/usr/bin/update-manager</Program>
+	  	<Program label="Пользователи и группы" confirm="false">users-admin</Program>
+	  	<Program label="Принтеры" confirm="false">system-config-printer</Program>
+	  	<Program label="Программы и обновления" confirm="false">software-properties-gtk</Program>
+	  	<Program label="Сеть" confirm="false">network-admin</Program>
+	  	<Program label="Центр приложений Ubuntu" confirm="false">/usr/bin/software-center</Program>
+	  </Menu>
+	  <Menu label="Параметры">
+	  	<Menu label="Интернет и сеть">
+	  		<Program label="Настройка межсетевого экрана" confirm="false">gufw</Program>
+	  		<Program label="Сетевая прокси-служба" confirm="false">mate-network-properties</Program>
+	  		<Program label="Сетевые соединения" confirm="false">nm-connection-editor</Program>
+	  		<Program label="Shares" confirm="false">shares-admin</Program>
+	  	</Menu>
+	  	<Menu label="Оборудование">
+	  		<Program label="Displays" confirm="false">mate-display-properties</Program>
+	  		<Program label="Диски" confirm="false">gnome-disks</Program>
+	  		<Program label="Дополнительные драйверы" confirm="false">software-properties-gtk</Program>
+	  		<Program label="QAMD Catalist control center" confirm="false">amdcccle</Program>
+	  		<!-- <Program label="AMD Catalist control center Администратор" confirm="false">gksu amdcccle</Program> -->
+	  	</Menu>
+	  	<Menu label="Внешний вид">
+	  		<Program label="QtConfig" confirm="false">qtconfig</Program>
+	  		<Program label="Настройка внешнего вида" confirm="false">lxappearance</Program>
+	  	</Menu>
+	  </Menu>
+	</Menu>
+</JWM>

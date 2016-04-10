@@ -1,0 +1,112 @@
+[<file>]
+FileTypeName=<file>
+FileTypeIcon=
+DefaultAction=0
+NumActions=0
+ColorString=
+
+[<directory>]
+FileTypeName=<directory>
+FileTypeIcon=
+DefaultAction=0
+NumActions=0
+ColorString=
+
+[mkv;avi;mov;mp4;wmv]
+FileTypeName=видео
+FileTypeIcon=
+DefaultAction=0
+NumActions=1
+ColorString=
+Action0Name=smplayer
+Action0Command=smplayer
+Action0RunInTerminal=0
+Action0AutodetectGUI=1
+
+[svg;jpg;png;xpm;gif]
+FileTypeName=изображения
+FileTypeIcon=
+DefaultAction=0
+NumActions=1
+ColorString=
+Action0Name=Глаз мате
+Action0Command=eom
+Action0RunInTerminal=0
+Action0AutodetectGUI=1
+
+[pdf;djvu]
+FileTypeName=pdf
+FileTypeIcon=
+DefaultAction=0
+NumActions=1
+ColorString=
+Action0Name=atril
+Action0Command=atril
+Action0RunInTerminal=0
+Action0AutodetectGUI=1
+
+[torrent]
+FileTypeName=torrent
+FileTypeIcon=
+DefaultAction=0
+NumActions=1
+ColorString=
+Action0Name=торренты
+Action0Command=qbittorrent
+Action0RunInTerminal=0
+Action0AutodetectGUI=1
+
+[7z;gz;rar;xz]
+FileTypeName=менеджер архивов
+FileTypeIcon=
+DefaultAction=0
+NumActions=1
+ColorString=
+Action0Name=менеджер архивов
+Action0Command=engrampa
+Action0RunInTerminal=0
+Action0AutodetectGUI=1
+
+[aac;mp3;flac;ogg;cue;m3u]
+FileTypeName=музыка
+FileTypeIcon=audacious
+DefaultAction=0
+NumActions=1
+ColorString=
+Action0Name=музыка
+Action0Command=audacious
+Action0RunInTerminal=0
+Action0AutodetectGUI=1
+
+[txt;ass;srt;go;rb;py;c;h;html;css]
+FileTypeName=текстовые файлы
+FileTypeIcon=
+DefaultAction=0
+NumActions=1
+ColorString=
+Action0Name=текстовый редактор
+Action0Command=geany
+Action0RunInTerminal=0
+Action0AutodetectGUI=1
+
+[rtf;doc;docx;ott;odt]
+FileTypeName=Libre writer
+FileTypeIcon=
+DefaultAction=0
+NumActions=1
+ColorString=
+Action0Name=libre writer
+Action0Command=libreoffice --writer
+Action0RunInTerminal=0
+Action0AutodetectGUI=0
+
+[ods;ots;uos;xls;dbf;csv;xlt;xlsx]
+FileTypeName=libre calc
+FileTypeIcon=
+DefaultAction=0
+NumActions=1
+ColorString=
+Action0Name=libre calc
+Action0Command=libreoffice --calc
+Action0RunInTerminal=0
+Action0AutodetectGUI=1

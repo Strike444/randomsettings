@@ -1,0 +1,91 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/strike/work/go_work/src/github.com/Strike444/" . "01/")
+ ("/home/strike/work/go_work/src/github.com/" . "Strike444/")
+ ("/home/strike/work/go_work/src/" . "github.com/")
+ ("/home/strike/work/go_work/" . "src/")
+ ("/home/strike/work/spree/core/lib/" . "spree/")
+ ("/home/strike/work/spree/core/" . "lib/")
+ ("/home/strike/work/spree/" . "core/")
+ ("/home/" . "strike/")
+ ("/" . "home/")
+ ("/home/strike/work/metasploit-omnibus/" . "pkg/")
+ ("/home/strike/work/" . "go_work/")
+ ("/home/strike/" . "work/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/strike/"
+ "/home/strike/work/go_work/src/github.com/Strike444/01/"
+ "/home/strike/work/"
+ "/home/strike/work/padrono_first_probe/"
+ "/home/strike/work/spree/core/lib/spree/"
+ "/home/strike/work/spree/core/lib/"
+ "/home/strike/work/spree/core/"
+ "/home/strike/work/spree/"
+ "/home/strike/work/metasploit-omnibus/"
+ "/home/strike/work/metasploit-omnibus/pkg/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "01.go"
+ "company.rb"
+ "person.rb"
+ "padrino_one.rb"
+ ".bashrc"
+ "TUTORIAL.ru"
+ "money.rb"
+ "core.rb"
+ "spree_core.rb"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/strike/" (22105 47754 418802 873000) ".nano/" ".xsession-errors" "torrents/" ".mplayer/" "work/" "table.html" ".msf4/" ".zlogin" ".gitconfig" ".gnome2/" ".adobe/" "./" ".themes/" ".Xauthority" ".zshrc" "Изображения/" "Видео/" ".macromedia/" ".local/" ".profile" ".dmrc" ".thunderbird/" ".emacs.d/" ".config/" ".gnome/" ".gconf/" ".mkshrc" ".joerc~" ".rvm/" ".irb-history" ".selected_editor" ".bash_history" "prosto.txt" ".ICEauthority" ".bash_profile" ".mozilla/" ".bash_logout" ".gksu.lock" "TUTORIAL.ru" "Рабочий стол/" ".icons/" ".gstreamer-0.10/" "keyboard.sh" ".gnupg/" ".emacs" ".pki/" "Документы/" "Музыка/" ".xsession-errors.old" ".Skype/" "../" "Библиотека Calibre/" "Шаблоны/" "proba.rb" ".bashrc" ".joe_state" ".dbus/" ".joerc" "Загрузки/" "Общедоступные/" ".cache/" ".gem/" ".sudo_as_admin_successful")
+
+ ("/home/strike/work/go_work/src/github.com/Strike444/05/raptgo/" (22105 53001 959635 713000) "tracking_flak.go" "mine.go" "raptor.go" "reaver.go" "./" "level.go" "raptgo.go" "thor.go" ".git/" "vector.go" "mauler.go" "deathray.go" "gfx/" "missile.go" ".gitignore" "enemies.go" "odin.go" "goodie.go" "enemy.go" "micro_missile.go" "VeraMono.ttf" "blitz.go" "flak.go" "eclipse.go" "tsunami.go" "../" "weapon.go" "surface.go" "shape.go" "README.md")
+
+ ("/home/strike/work/go_work/src/github.com/Strike444/01/" (22079 44752 167697 118000) "./" "01.go" "../")
+
+ ("/home/strike/work/go_work/src/github.com/Strike444/" (22079 30114 115605 538000) "./" "01/" "hello/" "../")
+
+ ("/home/strike/work/go_work/src/github.com/" (22078 26917 707853 667000) "./" "../" "Strike444/")
+
+ ("/home/strike/work/go_work/src/" (22078 26907 535838 955000) "github.com/" "./" "../")
+
+ ("/home/strike/work/go_work/" (22078 27059 224058 308000) "./" "src/" "bin/" "../")
+
+ ("/home/strike/work/" (22078 26490 619858 309000) "go_work/" "cmus/" "padrono_first_probe/" "go/" "./" "goods/" "padrino_blog1/" "padrino_blog/" "programming/" "1.rb" "metasploit-omnibus/" "spree/" "company.rb" "../" "person.rb")
+
+ ("/home/strike/work/padrono_first_probe/" (22058 41079 135615 138000) "./" "../" "padrino_one.rb")
+
+ ("/home/strike/work/spree/core/lib/spree/" (22038 42079 399298 75000) "core.rb" "core/" "./" "permitted_attributes.rb" "i18n/" "localized_number.rb" "migrations.rb" "money.rb" "promo/" "../" "i18n.rb" "responder.rb" "testing_support/")
+
+ ("/home/strike/.gstreamer-0.10/" (22037 33717 797162 777000) "./" "registry.x86_64.bin" "../")
+
+ ("/home/strike/work/spree/core/lib/" (22038 41013 542515 364000) "generators/" "./" "tasks/" "spree_core.rb" "spree/" "../")
+
+ ("/home/strike/work/spree/core/" (22038 41013 558515 493000) "spree_core.gemspec" "lib/" "./" "vendor/" "app/" "Gemfile" "script/" "LICENSE" "Rakefile" "db/" "../" "config/" "spec/")
+
+ ("/home/strike/work/spree/" (22038 41403 89699 442000) "circle.yml" "frontend/" "api/" "CODE_OF_CONDUCT.md" ".hound.yml" "core/" "lib/" ".rubocop.yml" "guides/" "cmd/" "./" "CONTRIBUTING.md" ".git/" "build-ci.rb" "spree.gemspec" ".gitignore" "common_spree_dependencies.rb" "Gemfile" "backend/" "build.sh" ".editorconfig" "missing_translations.rb" "sample/" "Rakefile" "SPREE_VERSION" "../" ".teatro.yml" "license.md" ".travis.yml" "CHANGELOG.md" "README.md")
+
+ ("/home/" (22025 43616 694177 443000) "strike/" "./" "../")
+
+ ("/home/strike/.emacs.d/" (22030 25476 450040 123000) "./" "url/" "auto-save-list/" "ido.last" "../" "ac-comphist.dat" "lisp/" "ido.last~")
+
+ ("/home/strike/.emacs.d/lisp/" (22030 19324 563446 58000) "sr-speedbar.el" "./" "auto-complete/" "auto-save-list/" "color-theme/" "rsense.el" "dash.el" "find-file-in-project.el" "ido.last" "yasnippet/" "elpa/" "../" "linum+.el" "smartparens/" "ido.last~" "popup.el")
+
+ ("/home/strike/work/metasploit-omnibus/" (22030 21003 582612 839000) ".gitmodules" "docker/" "./" "Gemfile.lock" "Berksfile" "#README.md#" ".git/" "pkg/" "resources/" ".gitignore" "Gemfile" ".kitchen.yml" "local/" "../" "config/" "omnibus.rb" "USAGE.md" "package-scripts/" ".travis.yml" "README.md")
+
+ ("/home/strike/work/metasploit-omnibus/resources/metasploit-framework/pkg/" (22026 53960 129 568000) "./" "welcome.html.erb" "license.html.erb" "../" "distribution.xml.erb" "background.png")
+
+ ("/home/strike/work/metasploit-omnibus/pkg/" (22026 53959 992129 509000) "./" ".gitignore" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

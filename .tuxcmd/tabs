@@ -1,0 +1,22 @@
+[Profile_Default_Rightpanel]
+NumTabs=3
+TabIndex=0
+Tab0=/home/strike/Загрузки/
+Tab0_SortID=3
+Tab0_SortType=0
+Tab1=/home/strike/Документы/
+Tab1_SortID=3
+Tab1_SortType=1
+Tab2=/home/strike/torrents/
+Tab2_SortID=3
+Tab2_SortType=0
+
+[Profile_Default_Leftpanel]
+NumTabs=2
+TabIndex=0
+Tab0=/home/strike/work/programming/
+Tab0_SortID=0
+Tab0_SortType=0
+Tab1=/home/strike/torrents/[alliance] Descended From the Sun/
+Tab1_SortID=0
+Tab1_SortType=0

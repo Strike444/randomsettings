@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<JWM>
+	<Include>$HOME/.jwm/keys</Include>
+	<Include>$HOME/.jwm/theme</Include>
+	<Include>$HOME/.jwm/startup</Include>
+	<!-- The root menu. -->
+    <RootMenu onroot="3">
+    <!-- <Include>/etc/jwm/debian-menu</Include> -->
+    <Include>$HOME/.jwm/menu</Include>
+        <Program icon="terminal.png" label="Терминал">sakura</Program>
+        <Separator/>
+<!--         <Program icon="lock.png" label="Заблокировать экран">
+            xscreensaver-command -lock
+        </Program>
+ -->    
+ 	    <Restart label="Перезапуск jwm" icon="restart.png"/>
+        <Separator/>
+        <Menu label="Выход">
+        	<Exit label="Завершить сеанс" confirm="true" icon="quit.png"/>
+        	<Program label="Перезагрузка">systemctl reboot</Program>
+        	<Program label="Выключение">systemctl poweroff</Program>
+        </Menu>
+    </RootMenu>
+
+    <!-- Options for program groups. -->
+<!-- 	<Group>
+		<Name>sakura</Name>
+ 		<Class>terminal</Class>
+ 		<Option>iignore</Option>
+	</Group> -->
+
+	<Group>
+    	<Class>Conky</Class>
+    	<Option>nolist</Option>
+    	<Option>noborder</Option>
+    	<Option>notitle</Option>
+    	<Option>sticky</Option>
+    	<Option>nomin</Option>
+    	<Option>nomove</Option>
+    	<Option>layer:above</Option>
+	</Group>
+
+
+    <Group>
+    	<Name>mate-panel --run-dialog</Name>
+    </Group>
+    <Group>
+        <Class>Pidgin</Class>
+        <Option>sticky</Option>
+    </Group>
+	
+	<Group>
+        <Name>sakura</Name>
+        <Option>opacity:1.0</Option>
+        <Option>noborder</Option>
+    </Group>
+
+
+<!--     <Group>
+        <Name>xterm</Name>
+        <Option>vmax</Option>
+        <Option>icon:terminal.png</Option>
+    </Group>
+    <Group>
+        <Name>xedit</Name>
+        <Option>icon:editor.png</Option>
+    </Group>
+ --><!--     <Group>
+        <Name>xcalc</Name>
+        <Option>icon:calculator.png</Option>
+    </Group>
+ -->
+    <!-- Tray at the bottom. -->
+    <Tray x="0" y="-1" autohide="off" height="25" width="1000" >
+
+        <!-- <TrayButton label=" Пуск ">root:3</TrayButton> -->
+        <!-- <TrayButton label="_">showdesktop</TrayButton> -->
+
+        <!-- <Pager labeled="true"/> -->
+
+        <TaskList maxwidth="256"/>
+
+        <Dock/>
+        <!-- <Clock><Button mask="123">exec:xclock</Button></Clock> -->
+
+    </Tray>
+
+    <!-- Path where icons can be found.
+         IconPath can be listed multiple times to allow searching
+         for icons in multiple paths.
+      -->
+    <IconPath>/usr/share/icons/gnome/256x256/actions</IconPath>
+    <IconPath>/usr/share/icons/gnome/256x256/apps</IconPath>
+    <IconPath>/usr/share/icons/gnome/256x256/categories</IconPath>
+    <IconPath>/usr/share/icons/gnome/256x256/devices</IconPath>
+    <IconPath>/usr/share/icons/gnome/256x256/emblems</IconPath>
+    <IconPath>/usr/share/icons/gnome/256x256/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/gnome/256x256/places</IconPath>
+    <IconPath>/usr/share/icons/gnome/256x256/status</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/actions</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/animations</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/apps</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/categories</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/devices</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/emblems</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/places</IconPath>
+    <IconPath>/usr/share/icons/gnome/32x32/status</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/actions</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/apps</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/categories</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/devices</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/emblems</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/places</IconPath>
+    <IconPath>/usr/share/icons/gnome/scalable/status</IconPath>
+    <IconPath>/usr/share/icons/hicolor/256x256/apps</IconPath>
+    <IconPath>/usr/share/icons/hicolor/256x256/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/hicolor/32x32/actions</IconPath>
+    <IconPath>/usr/share/icons/hicolor/32x32/apps</IconPath>
+    <IconPath>/usr/share/icons/hicolor/32x32/categories</IconPath>
+    <IconPath>/usr/share/icons/hicolor/32x32/devices</IconPath>
+    <IconPath>/usr/share/icons/hicolor/32x32/emblems</IconPath>
+    <IconPath>/usr/share/icons/hicolor/32x32/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/hicolor/32x32/status</IconPath>
+    <IconPath>/usr/share/icons/hicolor/512x512/apps</IconPath>
+    <IconPath>/usr/share/icons/hicolor/512x512/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/actions</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/apps</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/categories</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/devices</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/emblems</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/places</IconPath>
+    <IconPath>/usr/share/icons/hicolor/scalable/status</IconPath>
+    <IconPath>/usr/share/icons</IconPath>
+    <IconPath>/usr/share/pixmaps</IconPath>
+
+    <IconPath>/usr/share/icons/breeze/actions/16</IconPath>
+    <IconPath>/usr/share/icons/breeze/actions/22</IconPath>
+    <IconPath>/usr/share/icons/breeze/actions/24</IconPath>
+    <IconPath>/usr/share/icons/breeze/actions/48</IconPath>
+    <IconPath>/usr/share/icons/breeze/apps/16</IconPath>
+    <IconPath>/usr/share/icons/breeze/apps/22</IconPath>
+    <IconPath>/usr/share/icons/breeze/apps/32</IconPath>
+    <IconPath>/usr/share/icons/breeze/apps/48</IconPath>
+    <IconPath>/usr/share/icons/breeze/categories/16</IconPath>
+    <IconPath>/usr/share/icons/breeze/categories/22</IconPath>
+    <IconPath>/usr/share/icons/breeze/categories/32</IconPath>
+    <IconPath>/usr/share/icons/breeze/categories/48</IconPath>
+    <IconPath>/usr/share/icons/breeze/devices/16</IconPath>
+    <IconPath>/usr/share/icons/breeze/devices/22</IconPath>
+    <IconPath>/usr/share/icons/breeze/devices/48</IconPath>
+    <IconPath>/usr/share/icons/breeze/emblems/16</IconPath>
+    <IconPath>/usr/share/icons/breeze/emblems/22</IconPath>
+    <IconPath>/usr/share/icons/breeze/emblems/8</IconPath>
+    <IconPath>/usr/share/icons/breeze/emotes/22</IconPath>
+    <IconPath>/usr/share/icons/breeze/mimetypes/16</IconPath>
+    <IconPath>/usr/share/icons/breeze/mimetypes/22</IconPath>
+    <IconPath>/usr/share/icons/breeze/mimetypes/32</IconPath>
+    <IconPath>/usr/share/icons/breeze/mimetypes/64</IconPath>
+    <IconPath>/usr/share/icons/breeze/status/16</IconPath>
+    <IconPath>/usr/share/icons/breeze/status/22</IconPath>
+    <IconPath>/usr/share/icons/breeze/status/64</IconPath>
+    <IconPath>/usr/share/icons/breeze/places/16</IconPath>
+    <IconPath>/usr/share/icons/breeze/places/22</IconPath>
+    <IconPath>/usr/share/icons/breeze/places/32</IconPath>
+    <IconPath>/usr/share/icons/breeze/places/64</IconPath>
+
+    <!-- Virtual Desktops -->
+    <!-- Desktop tags can be contained within Desktops for desktop names. -->
+    <Desktops width="1" height="1">
+        <!-- Default background. Note that a Background tag can be
+              contained within a Desktop tag to give a specific background
+              for that desktop.
+         -->
+        <!-- <Background type="solid">#222222</Background> -->
+        <Background type="image">$HOME/.jwm/wallpapers/2.jpg</Background>
+    </Desktops>
+
+    <!-- Double click speed (in milliseconds) -->
+    <DoubleClickSpeed>400</DoubleClickSpeed>
+
+    <!-- Double click delta (in pixels) -->
+    <DoubleClickDelta>2</DoubleClickDelta>
+
+    <!-- The focus model (sloppy or click) -->
+    <FocusModel>click</FocusModel>
+
+    <!-- The snap mode (none, screen, or border) -->
+    <SnapMode distance="10">border</SnapMode>
+
+    <!-- The move mode (outline or opaque) -->
+    <MoveMode coordinates="off">opaque</MoveMode>
+
+    <!-- The resize mode (outline or opaque) -->
+    <ResizeMode coordinates="off">opaque</ResizeMode>
+
+</JWM>

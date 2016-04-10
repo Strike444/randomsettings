@@ -1,0 +1,28 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/" . "strike/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/strike/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/" (22025 43616 694177 443000) "strike/" "./" "../")
+
+ ("/home/strike/" (22028 63295 801935 578000) ".xsession-errors" "#TUTORIAL.ru#" ".mplayer/" ".bashrc~" "work/" ".msf4/" ".zlogin" ".gitconfig" ".adobe/" "./" ".themes/" ".Xauthority" ".zshrc" "#.bashrc#" "Изображения/" "Видео/" ".macromedia/" ".local/" ".profile" ".thunderbird/" ".emacs~" ".emacs.d/" ".config/" ".gnome/" ".gconf/" ".mkshrc" ".rvm/" ".bash_history" "prosto.txt" ".ICEauthority" ".bash_profile" ".mozilla/" ".bash_logout" "TUTORIAL.ru" "TUTORIAL.ru~" "Рабочий стол/" ".icons/" ".gnupg/" ".emacs" ".pki/" "Документы/" "Музыка/" ".xsession-errors.old" "../" "Библиотека Calibre/" "Шаблоны/" ".bashrc" ".dbus/" "Загрузки/" "Общедоступные/" ".cache/" ".gem/" ".sudo_as_admin_successful")
+
+ ("/home/strike/.emacs.d/" (22028 63909 128941 786000) "popup-20150626.711.el" "sr-speedbar.el" "./" "url/" "auto-complete/" "auto-save-list/" "color-theme/" "yasnippet/" "elpa/" "../" "linum+.el")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
